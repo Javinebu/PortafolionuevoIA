@@ -1,158 +1,100 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-<title>Portfolio</title>
-
-<link rel="stylesheet" href="css/reset.css">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap" rel="stylesheet">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Javiera</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Raleway:wght@400;600&family=Inter:wght@400;700&family=B612+Mono:wght@700&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
-<header class="header">
+<header class="nav">
+  <div class="logo">JAVIERA FISHWICK</div>
 
-<div class="logo">Portafolio</div>
+  <nav class="menu" id="menu">
+    <a href="#">Sobre mí</a>
+    <a href="#">Habilidades</a>
+    <a href="#">Proyectos</a>
+    <a href="#">Contacto</a>
+  </nav>
 
-<nav class="nav">
-
-<ul class="nav-links">
-<li><a href="#intro">Sobre mi</a></li>
-<li><a href="#skills">Habilidades</a></li>
-<li><a href="#projects">Proyecto</a></li>
-<li><a href="#contact">Contacto</a></li>
-</ul>
-
-<div class="hamburger">
-<span></span>
-<span></span>
-<span></span>
-</div>
-
-</nav>
-
+  <div class="hamburger" id="hamburger">
+    ☰
+  </div>
 </header>
 
-<main class="grid-container">
-
-    
 <!-- HERO -->
-
 <section class="hero">
+  <h1>PORTAFOLIO</h1>
 
+  <img src="img/Yo.png" alt="Javiera" class="hero-img">
 
-<div class="hero-text">
-<h1>Javiera Fishwick</h1>
-<p>DISEÑO UX/UI</p>
-</div>
+<div class="decor l1">⭐</div>
+<div class="decor heart left l2">💖</div>
+<div class="decor sparkle left l3">✨</div>
 
-<div class="hero-image">
-<img src="img/Foto Javiera.jpeg" alt="foto perfil">
-</div>
-
+<!-- DERECHA -->
+<div class="decor r1">⭐</div>
+<div class="decor heart right r2">💘</div>
+<div class="decor sparkle right r3">✨</div>
 </section>
 
-<!-- INTRO -->
+<section class="cards">
 
+  <!-- SOBRE MI -->
+  <section class="card about">
+    <h2>SOBRE MÍ</h2>
+    <p>Hola! Soy Javiera, estudiante de Diseño UX/UI.
+Me enfoco en crear soluciones intuitivas pero atractivas,
+dando forma a experiencias digitales empáticas, útiles y visualmente atractivas. </p>
 
-<section id="intro" class="intro card">
-
-<h3>SOBRE MÍ</h3>
-
-
-<p>
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+<p>Me gusta explorar distintos estilos visuales, desde lo maximalista hasta lo más simple, siempre manteniendo mi propio toque.
+También tengo otros intereses que enriquecen mi proceso creativo, como la ilustración digital y la fotografía.
 </p>
 
-</section>
+<p>Actualmente estoy en proceso de descubrir y desarrollar mi estilo, mientras sigo creciendo como diseñadora.</p>
+  </section>
 
-<!-- SKILLS -->
+  <!-- HABILIDADES -->
+  <section class="card skills">
+    <h2>HABILIDADES</h2>
+    <div class="skills-grid">
+      <div class="skill">UX Research</div>
+      <div class="skill">UI Design</div>
+      <div class="skill">Figma</div>
+      <div class="skill">Prototipado</div>
+      <div class="skill">HTML/CSS</div>
+      <div class="skill">Ilustración</div>
+    </div>
+  </section>
 
-<section id="skills" class="skills card dark">
-
-<h3>Habilidades</h3>
-
-<ul>
-
-<li>Trabajo colaborativo</li>
-<li>Atención al detalle</li>
-<li>Pensamiento crítico y resolución de problemas</li>
-<li>Ilustración</li>
-<li>Empatía con el usuario</li>
-
-</ul>
-
-</section>
-
-<!-- PROJECTS -->
-
-<section id="projects" class="projects">
-
-<div class="project card dark">
-
-<h3>Project 01</h3>
-<h4>Brand</h4>
-
-<p>
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-</p>
-
-<div class="project-images">
-
-<img src="img/Chabe y Felix dibujo principal .png"">
-
-</div>
-
-</div>
-
-<div class="project card">
-
-<h3>Project 02</h3>
-<h4>Brand</h4>
-
-<p>
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-</p>
-
-
-<div class="project-images">
-
-<img src="img/Chabe y Felix dibujo principal .png" alt="">
-
-
-</div>
-
-</div>
+  <!-- PROYECTOS -->
+  <section class="card projects">
+    <div class="project pink">
+      <span>PROYECTO 01</span>
+    </div>
+    <div class="project blue">
+      <span>PROYECTO 02</span>
+    </div>
+  </section>
 
 </section>
 
+<!-- CONTACTO -->
+<footer class="footer">
+  <h2>¡Trabajemos juntos!</h2>
+  <p class="email">fishwickjaviera@gmail.com</p>
+  <p class="phone">+56 9 98278359</p>
+</footer>
 
-<!-- CONTACT -->
 
-<section id="contact" class="contact dark">
-
-<h2>¡Trabajemos juntos!</h2>
-
-<p>fishwickjaviera@gmail.com</p>
-<p>+56 9 98278359</p>
-
-</section>
-
-<!-- BOTON FLOTANTE -->
-
-<a href="https://wa.me/56912345678" target="_blank" class="whatsapp-float">
-<i class="fa-brands fa-whatsapp"></i>
+<!-- BOTÓN WHATSAPP -->
+<a href="https://wa.me/56998278359" class="whatsapp-btn" target="_blank">
+  💬
 </a>
 
-<script src="js/menu.js"></script>
-</main>
-
+<script src="script.js"></script>
 </body>
 </html>
